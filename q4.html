@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>JavaScript Image Rollovers</title>
+<script language="JavaScript">
+<!--
+ var v= prompt("choose: \n 1: length of string \n 2: indexOf \n 3: lastIndexOf \n 4: search  \n 5: toUpperCase\n6: toLowerCase\n", " " );
+ switch(v)
+ {
+ case '1':
+ var i=prompt("enter string", " ");
+ s=i.length;
+ document.write("the length of string is:" + s);
+ break;
+ case '2':
+ var i=prompt("enter string", " ");
+ var j=prompt("the adress of character you want to find:"," ");
+ document.write("the index of "+j+"is:"+(i.indexOf(j)+1));
+ break;
+ case '3':
+ var i=prompt("enter string", " ");
+ var j=prompt("the adress of character you want to find:"," ");
+ document.write("the index of "+j+"is:"+(i.lastIndexOf(j)+1));
+ break;
+ case '4':
+ var i=prompt("enter string", " ");
+ var j=prompt("the character you want to find:"," ");
+  document.write( "element found at "+i.search(j)+ " position");
+  break;
+ case '5':
+ var i=prompt("enter string", " ");
+ document.write("the string in upper case is: "+ i.toUpperCase());
+ break;
+case '6':
+ var i=prompt("enter string", " ");
+ document.write("the string in lower case is: "+ i.toLowerCase());
+ break;
+ default:
+ document.write("error");
+ break;
+}
+//-->
+</script>
+</head>
+<body>
+<a href="index.html">back to home</a>
+</body>
+</html>

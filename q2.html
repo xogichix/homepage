@@ -1,25 +1,22 @@
 <html>
-<head><title>testfile</title>
-<script language = "JavaScript">
-<!--
-    function myMove() {
-  var elem = document.getElementById("ani");
-  var pos = 0;
-  var id = setInterval(frame, 5);
-  function frame() {
-    if (pos == 350) {
-      clearInterval(id);
-    } else {
-      pos++;
-      elem.style.top = pos + 'px';
-      elem.style.left = pos + 'px';
+<body onload="setInterval(change,5000)">
+<h1>hey there this is the transition of images</h1>
+<script>
+int i=1;
+function change()
+{
+    var x=document.getElementById("h");
+    if(i==1)
+    {
+        document.getElementById("ani").style.display="block";
     }
-  }
+    else
+    {
+        document.getElementById("an").style.display="block";
     }
- //-->
+}
 </script>
-</head>
-<body>
-<img  src="IMG_8158.jpg" style="width:600px;height:500px;" id="ani">  
+<img src="IMG_8158.jpg" id="ani" style="display:none">
+<img src="IMG_8260.jpg" id="an" style="display:none">
 </body>
 </html>

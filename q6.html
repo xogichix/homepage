@@ -1,0 +1,38 @@
+<html>
+<head><title>testfile</title>
+<script language = "JavaScript">
+<!--
+    var v=prompt("choose from the following: \n 1.power \n 2.round off \n 3.square root\n 4.absolute value\n 5.generate random number"," ");
+    switch (v)
+    {
+        case '1':
+        var n=prompt("enter number:"," ");
+        var p=prompt("enter power:"," ");
+        document.write(Math.pow(parseInt(n,10),parseInt(p,10)));
+        break;
+        case '2':
+        var n=prompt("enter number:"," ");
+        document.write(Math.round(parseInt(n,10)));
+        break;
+        case '3':
+        var n=prompt("enter number:"," ");
+        document.write(Math.sqrt(parseInt(n,10)));
+        break;
+        case '4':
+        var n=prompt("enter number:"," ");
+        document.write(Math.abs(parseInt(n,10)));
+        break;
+        case '5':
+        document.write(Math.random());
+        break;
+        default:
+        document.write("error");
+        break;
+    }
+
+ //-->
+</script>
+</head>
+<body> 
+</body>
+</html>

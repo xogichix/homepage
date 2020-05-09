@@ -1,23 +1,31 @@
 <html>
-<body onload="setInterval(change,5000)">
-<h1>hey there this is the transition of images</h1>
+<head><title>question2</title>
 <script>
-int i=1;
-function change()
-{
-    if(i==1)
+   <!--
+   var p=new Array("IMG_8158.jpg","IMG_8260.jpg","IMG_E0502.JPG");
+    var j=0;
+    function r()
     {
-        document.getElementById("ani").style.display="block";
-    i=2;
+        s=window.document.banner;
+        s.src=pic[j];
+        if(j>1)
+            j=0;
+        else
+        {
+            j++;
+        }
+        id=setTimeout("r()",5000);
     }
-    else
+    function s()
     {
-        document.getElementById("an").style.display="block";
-    i=1;
+        clearTimeout(id);
     }
-}
 </script>
-<img src="IMG_8158.jpg" id="ani" style="display:none">
-<img src="IMG_8260.jpg" id="an" style="display:none">
+</head>
+<body>
+ <img src="IMG_8158.jpg" name="banner">
+    <hr>
+<input type="button" value="start" onclick="r()">
+    <input type="button" value="stop" onclick="s()">
 </body>
 </html>

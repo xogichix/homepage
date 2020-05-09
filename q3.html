@@ -1,0 +1,19 @@
+<html>
+<body onload="setInterval(change,2000)">
+<h1 id="h">hey there</h1>
+<script>
+function change()
+{
+    var x=document.getElementById("h");
+    if(x.style.color=="yellow")
+    {
+        x.style.color="red";
+    }
+    else
+    {
+        x.style.color="yellow";
+    }
+}
+</script>
+</body>
+</html>

@@ -1,4 +1,4 @@
 body 
 {
- background-image: image("sitebg.png");
+ background: url("sitebg.png");
 }

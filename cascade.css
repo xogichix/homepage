@@ -76,8 +76,6 @@ th{
 
 }
 table{
-    position: absolute;
-    left:20%;
     border: 50px;
     border-color: transparent;
 }

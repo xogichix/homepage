@@ -65,3 +65,19 @@ a{
     position: absolute;
     left:900px;
 }
+th{
+    background-color: rgba(0, 0.1, 0, 0.5);
+    border: 50px;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+table{
+    position: absolute;
+    left:20%;
+    border: 50px;
+    border-color: transparent;
+}
